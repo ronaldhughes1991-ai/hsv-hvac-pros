@@ -69,19 +69,6 @@ export default function RootLayout({
               url: "https://hsvhvacpros.com",
               telephone: "256-588-4712",
               email: "info@hsvhvacpros.com",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "YOUR_ATHENS_STREET_ADDRESS",
-                addressLocality: "Athens",
-                addressRegion: "AL",
-                postalCode: "YOUR_ZIP_CODE",
-                addressCountry: "US",
-              },
-              geo: {
-                "@type": "GeoCoordinates",
-                latitude: "YOUR_LATITUDE",
-                longitude: "YOUR_LONGITUDE",
-              },
               areaServed: [
                 { "@type": "City", name: "Huntsville" },
                 { "@type": "City", name: "Athens" },

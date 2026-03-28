@@ -44,7 +44,7 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* Address */}
+              {/* Service Area */}
               <div className="flex gap-4">
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-blue-700 text-white">
                   <svg viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5" aria-hidden="true">
@@ -52,9 +52,9 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <dt className="font-medium text-slate-500">Address</dt>
+                  <dt className="font-medium text-slate-500">Service Area</dt>
                   <dd className="font-semibold text-slate-900">
-                    YOUR_ATHENS_STREET_ADDRESS<br />Athens, AL YOUR_ZIP_CODE
+                    Huntsville, Athens, Madison &amp; Harvest, AL
                   </dd>
                 </div>
               </div>
