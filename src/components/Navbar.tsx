@@ -20,19 +20,13 @@ export default function Navbar() {
       >
         {/* Logo / Brand */}
         <a href="#" className="flex items-center gap-2.5" id="nav-logo">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-700">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={2}
-              className="h-6 w-6 text-white"
-              aria-hidden="true"
-            >
-              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-              <polyline points="9 22 9 12 15 12 15 22" />
-            </svg>
-          </div>
+          <img
+            src="/logo.png"
+            alt="HSV HVAC Pros logo"
+            className="h-11 w-11 rounded-full object-cover"
+            width={44}
+            height={44}
+          />
           <div className="leading-tight">
             <span className="block text-lg font-extrabold tracking-tight text-slate-900">
               HSV HVAC Pros

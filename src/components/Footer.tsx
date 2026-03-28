@@ -19,12 +19,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2.5">
-              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-blue-700">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="h-5 w-5 text-white" aria-hidden="true">
-                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-                  <polyline points="9 22 9 12 15 12 15 22" />
-                </svg>
-              </div>
+              <img
+                src="/logo.png"
+                alt="HSV HVAC Pros logo"
+                className="h-10 w-10 rounded-full object-cover"
+                width={40}
+                height={40}
+              />
               <span className="text-lg font-extrabold text-white">HSV HVAC Pros</span>
             </div>
             <p className="mt-4 text-sm leading-6">
