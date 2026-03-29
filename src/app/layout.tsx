@@ -93,14 +93,20 @@ export default function RootLayout({
               name: "HSV HVAC Pros",
               image: "https://hsvhvacpros.com/logo.png",
               description:
-                "Professional residential HVAC repair, installation, and maintenance services in Athens, Huntsville & North Alabama.",
+                "Connecting North Alabama homeowners with vetted, licensed HVAC professionals for repair, installation, and maintenance.",
               url: "https://hsvhvacpros.com",
               telephone: "256-588-4712",
               email: "info@hsvhvacpros.com",
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Athens",
+                addressRegion: "AL",
+                addressCountry: "US",
+              },
               geo: {
                 "@type": "GeoCoordinates",
-                latitude: "34.7304",
-                longitude: "-86.5861",
+                latitude: "34.8029",
+                longitude: "-86.9717",
               },
               areaServed: [
                 { "@type": "City", name: "Huntsville", "@id": "https://en.wikipedia.org/wiki/Huntsville,_Alabama" },
@@ -116,8 +122,8 @@ export default function RootLayout({
                 "@type": "GeoCircle",
                 geoMidpoint: {
                   "@type": "GeoCoordinates",
-                  latitude: "34.7304",
-                  longitude: "-86.5861",
+                  latitude: "34.8029",
+                  longitude: "-86.9717",
                 },
                 geoRadius: "30 mi",
               },

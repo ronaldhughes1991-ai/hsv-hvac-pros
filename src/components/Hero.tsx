@@ -31,8 +31,9 @@ export default function Hero() {
 
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-300">
               From same-day AC repair to full heating system overhauls, our
-              licensed technicians deliver reliable comfort for your home&nbsp;&mdash;
-              backed by transparent pricing and a 100% satisfaction guarantee.
+              network of vetted, licensed technicians delivers reliable comfort
+              for your home&nbsp;&mdash; backed by transparent pricing and a
+              100% satisfaction guarantee.
             </p>
 
             {/* CTA row */}

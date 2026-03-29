@@ -3,9 +3,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "About HSV HVAC Pros | Locally Owned HVAC Company — Athens & Huntsville AL",
+  title: "About HSV HVAC Pros | HVAC Service Network — Athens & Huntsville AL",
   description:
-    "Locally owned and operated since 2009. HSV HVAC Pros provides trusted residential HVAC service to Athens, Huntsville, Madison & North Alabama. Licensed, insured, 4.9★ rated.",
+    "Since 2009, HSV HVAC Pros has connected North Alabama homeowners with vetted, licensed HVAC professionals. Serving Athens, Huntsville, Madison & surrounding areas. 4.9★ rated.",
   alternates: { canonical: "https://hsvhvacpros.com/about" },
 };
 
@@ -22,12 +22,12 @@ export default function AboutPage() {
             </p>
             <h1 className="mt-3 text-4xl font-extrabold leading-[1.1] tracking-tight sm:text-5xl">
               North Alabama&apos;s Trusted{" "}
-              <span className="text-blue-300">HVAC Professionals</span>
+              <span className="text-blue-300">HVAC Service Network</span>
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-300">
-              Since 2009, HSV HVAC Pros has been keeping families across Athens,
-              Huntsville, and North Alabama comfortable with honest, reliable
-              HVAC service.
+              Since 2009, HSV HVAC Pros has been connecting families across
+              Athens, Huntsville, and North Alabama with vetted, licensed HVAC
+              professionals they can count on.
             </p>
           </div>
         </section>
@@ -40,26 +40,28 @@ export default function AboutPage() {
             </h2>
             <div className="mt-8 space-y-6 text-base leading-7 text-slate-700">
               <p>
-                HSV HVAC Pros was founded with a simple mission: provide North
-                Alabama homeowners with HVAC service they can actually trust.
-                Too many families were getting overcharged, sold unnecessary
-                repairs, or left waiting for days without heat or air
-                conditioning. We set out to change that.
+                HSV HVAC Pros was founded with a simple mission: connect North
+                Alabama homeowners with HVAC professionals they can actually
+                trust. Too many families were getting overcharged, sold
+                unnecessary repairs, or left waiting for days without heat or
+                air conditioning. We set out to change that.
               </p>
               <p>
-                Based in Athens, Alabama, we serve homeowners across the greater
-                Huntsville metro area — from Madison and Harvest to
-                Meridianville, Hazel Green, New Market, and Toney. Our
-                technicians live in the same communities they serve, which means
-                we treat every home like our neighbor&apos;s.
+                Based in Athens, Alabama, our network of vetted technicians
+                serves homeowners across the greater Huntsville metro area —
+                from Madison and Harvest to Meridianville, Hazel Green, New
+                Market, and Toney. Every technician in our network lives in the
+                communities they serve, which means they treat every home like
+                a neighbor&apos;s.
               </p>
               <p>
-                Over the past 15+ years, we&apos;ve grown from a small
-                operation to one of the most trusted HVAC companies in North
-                Alabama — serving more than 4,800 homes and maintaining a 4.9
+                Over the past 15+ years, we&apos;ve grown into one of the most
+                trusted HVAC service networks in North Alabama — dispatching
+                local experts to more than 4,800 homes and maintaining a 4.9
                 star Google rating from over 312 reviews. That reputation
-                wasn&apos;t built on advertising. It was built on showing up on
-                time, diagnosing problems honestly, and standing behind our work.
+                wasn&apos;t built on advertising. It was built by connecting
+                homeowners with professionals who show up on time, diagnose
+                problems honestly, and stand behind their work.
               </p>
             </div>
 
@@ -70,20 +72,20 @@ export default function AboutPage() {
             <div className="mt-8 grid gap-6 sm:grid-cols-2">
               {[
                 {
-                  title: "Transparent Pricing",
-                  desc: "You'll know exactly what a repair costs before we start. No surprises, no hidden fees, no upselling. We show you the problem and explain your options in plain language.",
+                  title: "Vetted Partners",
+                  desc: "Every technician in our network is independently licensed, EPA-certified, background-checked, and insured. We only work with pros who meet our standards.",
                 },
                 {
                   title: "Fast Response Times",
-                  desc: "We understand that HVAC failures don't wait. Our average response time is under 1 hour, and we offer 24/7 emergency service with no overtime charges.",
+                  desc: "HVAC failures don't wait. Our network averages under 1 hour response time, and we dispatch local experts 24/7 with no overtime charges.",
                 },
                 {
-                  title: "Quality Workmanship",
-                  desc: "Every technician on our team is licensed, EPA-certified, and continuously trained on the latest equipment. We use manufacturer-approved parts and follow industry best practices.",
+                  title: "Transparent Pricing",
+                  desc: "You'll know exactly what a repair costs before work begins. No surprises, no hidden fees, no upselling. Every option explained in plain language.",
                 },
                 {
                   title: "Community First",
-                  desc: "We're not a national franchise — we're your neighbors. We've built our business on referrals and repeat customers, and we plan to keep it that way.",
+                  desc: "We're not a national franchise — we're a local network of North Alabama professionals. Built on referrals and repeat customers, and we plan to keep it that way.",
                 },
               ].map((v) => (
                 <div key={v.title} className="rounded-xl border border-slate-200 p-6">
@@ -115,19 +117,19 @@ export default function AboutPage() {
 
             {/* Licensing */}
             <h2 className="mt-16 text-2xl font-extrabold tracking-tight text-slate-900 sm:text-3xl">
-              Licensed & Insured
+              Licensed & Insured Network
             </h2>
             <div className="mt-6 space-y-4 text-base leading-7 text-slate-700">
               <p>
-                HSV HVAC Pros is fully licensed by the State of Alabama and
-                carries comprehensive general liability and workers&apos;
-                compensation insurance. All our technicians hold EPA Section 608
-                certification for refrigerant handling.
+                All technicians in our network are independently licensed by the
+                State of Alabama and carry their own general liability and
+                workers&apos; compensation insurance. Every partner holds EPA
+                Section 608 certification for refrigerant handling.
               </p>
               <p>
-                We stay current with all local building codes and permit
-                requirements across Madison County, Limestone County, and the
-                surrounding areas.
+                Our network partners stay current with all local building codes
+                and permit requirements across Madison County, Limestone County,
+                and the surrounding areas.
               </p>
             </div>
 
@@ -136,22 +138,22 @@ export default function AboutPage() {
               Areas We Serve
             </h2>
             <p className="mt-4 text-base leading-7 text-slate-700">
-              We proudly serve homeowners in <strong>Athens</strong>,{" "}
-              <strong>Huntsville</strong>, <strong>Madison</strong>,{" "}
-              <strong>Harvest</strong>, <strong>Meridianville</strong>,{" "}
-              <strong>Hazel Green</strong>, <strong>New Market</strong>,{" "}
-              <strong>Toney</strong>, and surrounding communities throughout
-              North Alabama.
+              Our network of vetted HVAC professionals serves homeowners in{" "}
+              <strong>Athens</strong>, <strong>Huntsville</strong>,{" "}
+              <strong>Madison</strong>, <strong>Harvest</strong>,{" "}
+              <strong>Meridianville</strong>, <strong>Hazel Green</strong>,{" "}
+              <strong>New Market</strong>, <strong>Toney</strong>, and
+              surrounding communities throughout North Alabama.
             </p>
 
             {/* CTA */}
             <div className="mt-14 rounded-2xl bg-blue-50 p-8 text-center sm:p-10">
               <h3 className="text-2xl font-extrabold text-slate-900">
-                Ready to Work With a Team You Can Trust?
+                Ready to Connect With a Pro You Can Trust?
               </h3>
               <p className="mt-3 text-slate-600">
-                Call us today or request a free estimate online. We look forward
-                to earning your business.
+                Call us today or request a free estimate online. We&apos;ll
+                dispatch a vetted local expert to your home.
               </p>
               <div className="mt-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
                 <a

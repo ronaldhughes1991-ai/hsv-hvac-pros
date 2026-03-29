@@ -27,7 +27,7 @@ export default function Emergency() {
               HVAC Emergency? We&apos;re On Our Way.
             </h2>
             <p className="mt-3 max-w-2xl text-lg text-slate-300">
-              Our emergency team responds across Athens, Huntsville, Madison,
+              Dispatching local experts across Athens, Huntsville, Madison,
               and Harvest &mdash; average arrival in 60 minutes, day or night.
               No overtime fees, no surprises.
             </p>

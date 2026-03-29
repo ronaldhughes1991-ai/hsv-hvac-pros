@@ -3,15 +3,15 @@ import Image from "next/image";
 export default function Footer() {
   const year = new Date().getFullYear();
 
-  const serviceAreas = [
-    "Huntsville",
-    "Madison",
-    "Athens",
-    "Harvest",
-    "Meridianville",
-    "Hazel Green",
-    "New Market",
-    "Toney",
+  const serviceAreas: { name: string; href?: string }[] = [
+    { name: "Huntsville", href: "/locations/huntsville" },
+    { name: "Madison" },
+    { name: "Athens", href: "/locations/athens" },
+    { name: "Harvest" },
+    { name: "Meridianville" },
+    { name: "Hazel Green" },
+    { name: "New Market" },
+    { name: "Toney" },
   ];
 
   return (
@@ -33,8 +33,8 @@ export default function Footer() {
               <span className="text-lg font-extrabold text-white">HSV HVAC Pros</span>
             </div>
             <p className="mt-4 text-sm leading-6">
-              Locally owned and operated since 2009. Licensed, insured, and
-              committed to keeping North Alabama homes comfortable.
+              Connecting North Alabama homeowners with vetted, licensed HVAC
+              professionals since 2009.
             </p>
           </div>
 
@@ -68,8 +68,14 @@ export default function Footer() {
             </h3>
             <ul className="mt-4 space-y-2.5" role="list">
               {serviceAreas.map((area) => (
-                <li key={area} className="text-sm">
-                  {area}, AL
+                <li key={area.name} className="text-sm">
+                  {area.href ? (
+                    <a href={area.href} className="transition-colors hover:text-white">
+                      {area.name}, AL
+                    </a>
+                  ) : (
+                    <>{area.name}, AL</>
+                  )}
                 </li>
               ))}
             </ul>
@@ -108,8 +114,15 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Disclaimer */}
+        <div className="mt-10 text-center">
+          <p className="text-xs text-slate-500">
+            HSV HVAC Pros is a service network. Work is performed by independent, licensed partners.
+          </p>
+        </div>
+
         {/* Bottom bar */}
-        <div className="mt-12 border-t border-slate-800 pt-8">
+        <div className="mt-6 border-t border-slate-800 pt-8">
           <div className="flex flex-col items-center gap-4 text-center text-xs sm:flex-row sm:justify-between sm:text-left">
             <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4">
               <p>&copy; {year} HSV HVAC Pros. All rights reserved.</p>

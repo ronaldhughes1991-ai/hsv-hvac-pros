@@ -15,11 +15,25 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 border-b border-blue-900/10 bg-white/95 backdrop-blur-sm">
+    <header className="sticky top-0 z-50">
+      {/* Sticky Call Now Banner */}
+      <div className="bg-blue-700 text-white">
+        <div className="mx-auto flex max-w-7xl items-center justify-center gap-3 px-5 py-2 text-sm font-semibold lg:px-8">
+          <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4 animate-pulse" aria-hidden="true">
+            <path fillRule="evenodd" d="M2 3.5A1.5 1.5 0 013.5 2h1.148a1.5 1.5 0 011.465 1.175l.716 3.223a1.5 1.5 0 01-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 006.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 011.767-1.052l3.223.716A1.5 1.5 0 0118 15.352V16.5a1.5 1.5 0 01-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 012.43 8.326 13.019 13.019 0 012 5V3.5z" clipRule="evenodd" />
+          </svg>
+          <a href="tel:+12565884712" className="hover:underline">
+            Call Now — <span className="font-extrabold">(256) 588-4712</span> — Free Estimates
+          </a>
+        </div>
+      </div>
+
+      {/* Main Navigation */}
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 lg:px-8"
+        className="border-b border-blue-900/10 bg-white/95 backdrop-blur-sm"
         aria-label="Primary navigation"
       >
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 lg:px-8">
         {/* Logo / Brand */}
         <a href="#" className="flex items-center gap-2.5" id="nav-logo">
           <Image
@@ -89,6 +103,7 @@ export default function Navbar() {
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
             )}
           </button>
+        </div>
         </div>
       </nav>
 

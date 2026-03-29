@@ -5,7 +5,7 @@ const services = [
     title: "AC Repair",
     tagline: "Cool Comfort, Restored Fast",
     description:
-      "Huntsville summers don't wait — neither do we. Our certified techs diagnose and fix all residential AC brands with same-day service and upfront pricing. No hidden fees, ever.",
+      "Huntsville summers don't wait — neither do we. Our network of certified technicians diagnoses and fixes all residential AC brands with same-day service and upfront pricing. No hidden fees, ever.",
     features: ["Same-day diagnostics", "All brands serviced", "Parts warranty included"],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="h-8 w-8" aria-hidden="true">
@@ -34,7 +34,7 @@ const services = [
     title: "Emergency 24/7 Service",
     tagline: "When Minutes Matter, We're There",
     description:
-      "AC quit at midnight? Furnace down during a cold snap? Our emergency team is on-call around the clock — average 60-minute response time across North Alabama.",
+      "AC quit at midnight? Furnace down during a cold snap? We dispatch local experts around the clock — average 60-minute response time across North Alabama.",
     features: ["24/7/365 availability", "60-min avg response", "No overtime charges"],
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="h-8 w-8" aria-hidden="true">
@@ -66,8 +66,8 @@ export default function Services() {
             Residential HVAC Solutions You Can Count On
           </h2>
           <p className="mt-4 text-lg text-slate-600">
-            Every service is backed by licensed technicians, transparent quotes,
-            and our no-surprise pricing promise.
+            Every service is backed by our network of vetted technicians,
+            transparent quotes, and our no-surprise pricing promise.
           </p>
         </div>
 
