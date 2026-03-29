@@ -9,6 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://hsvhvacpros.com"),
   title: "HSV HVAC Pros | HVAC Huntsville AL — AC Repair, Heating & Emergency Service",
   description:
     "Top-rated HVAC company in Athens & Huntsville, AL. Residential air conditioning repair, emergency furnace service North Alabama, heating maintenance. Serving Athens, Huntsville, Madison, and Harvest. Call (256) 588-4712 for a free estimate.",
@@ -32,6 +33,12 @@ export const metadata: Metadata = {
     siteName: "HSV HVAC Pros",
     type: "website",
     locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "HSV HVAC Pros | HVAC Huntsville AL",
+    description:
+      "Top-rated residential HVAC company serving Athens, Huntsville & North Alabama. AC repair, heating, emergency service. Call (256) 588-4712.",
   },
   robots: {
     index: true,

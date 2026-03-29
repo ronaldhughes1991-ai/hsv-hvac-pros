@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   const year = new Date().getFullYear();
 
@@ -19,12 +21,14 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2.5">
-              <img
+              <Image
                 src="/logo.png"
                 alt="HSV HVAC Pros logo"
                 className="h-10 w-10 rounded-full object-cover"
                 width={40}
                 height={40}
+                quality={75}
+                loading="lazy"
               />
               <span className="text-lg font-extrabold text-white">HSV HVAC Pros</span>
             </div>

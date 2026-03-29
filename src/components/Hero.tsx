@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section
@@ -78,13 +80,14 @@ export default function Hero() {
           {/* Right column — Saturn V photo */}
           <div className="hidden lg:flex lg:justify-end">
             <div className="relative overflow-hidden rounded-2xl shadow-2xl shadow-black/40">
-              <img
+              <Image
                 src="/saturn-v.jpg"
-                alt="NASA Saturn V rocket on the launch pad — Huntsville, Alabama is the Rocket City"
+                alt="Saturn V rocket at the U.S. Space and Rocket Center in Huntsville, Alabama — the Rocket City"
                 className="h-auto w-full max-w-md object-cover grayscale"
-                width={1280}
-                height={1119}
-                loading="eager"
+                width={448}
+                height={392}
+                priority
+                quality={80}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent" />
               <p className="absolute bottom-4 left-4 text-xs font-medium text-white/70">

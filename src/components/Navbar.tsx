@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -20,12 +21,13 @@ export default function Navbar() {
       >
         {/* Logo / Brand */}
         <a href="#" className="flex items-center gap-2.5" id="nav-logo">
-          <img
+          <Image
             src="/logo.png"
             alt="HSV HVAC Pros logo"
             className="h-11 w-11 rounded-full object-cover"
             width={44}
             height={44}
+            quality={75}
           />
           <div className="leading-tight">
             <span className="block text-lg font-extrabold tracking-tight text-slate-900">
