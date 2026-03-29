@@ -46,50 +46,6 @@ html {
   animation: pulse-ring 2s ease-out infinite;
 }
 
-/* ============================================ */
-/*  Rocket Animation — Responsive Handling      */
-/* ============================================ */
-
-.rocket-container {
-  transition: opacity 0.3s ease;
-}
-
-/* On smaller screens, shrink the 2x rocket to avoid text overlap */
-@media (max-width: 767px) {
-  .rocket-container {
-    right: 8px !important;
-    bottom: 10px !important;
-    transform: scale(0.5);
-    transform-origin: bottom right;
-    opacity: 0.45;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .rocket-container {
-    right: 16px !important;
-    transform: scale(0.7);
-    transform-origin: bottom right;
-    opacity: 0.65;
-  }
-}
-
-@media (min-width: 1024px) {
-  .rocket-container {
-    right: 32px !important;
-    opacity: 0.9;
-  }
-}
-
-/* Idle engine glow pulse */
-@keyframes engine-idle-pulse {
-  0%, 100% { opacity: 0.15; }
-  50% { opacity: 0.25; }
-}
-.engine-idle-pulse {
-  animation: engine-idle-pulse 3s ease-in-out infinite;
-}
-
 /* Skyline subtle fade */
 .huntsville-skyline {
   margin-top: -1px;

@@ -5,7 +5,7 @@ import Emergency from "@/components/Emergency";
 import Reviews from "@/components/Reviews";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import RocketAnimation from "@/components/RocketAnimation";
+
 import HuntsvilleSkyline from "@/components/HuntsvilleSkyline";
 
 export default function Home() {
@@ -21,7 +21,6 @@ export default function Home() {
       </main>
       <HuntsvilleSkyline />
       <Footer />
-      <RocketAnimation />
     </>
   );
 }
