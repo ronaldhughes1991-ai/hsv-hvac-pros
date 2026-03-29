@@ -76,12 +76,30 @@ export default function RootLayout({
               url: "https://hsvhvacpros.com",
               telephone: "256-588-4712",
               email: "info@hsvhvacpros.com",
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: "34.7304",
+                longitude: "-86.5861",
+              },
               areaServed: [
-                { "@type": "City", name: "Huntsville" },
-                { "@type": "City", name: "Athens" },
-                { "@type": "City", name: "Madison" },
-                { "@type": "City", name: "Harvest" },
+                { "@type": "City", name: "Huntsville", "@id": "https://en.wikipedia.org/wiki/Huntsville,_Alabama" },
+                { "@type": "City", name: "Athens", "@id": "https://en.wikipedia.org/wiki/Athens,_Alabama" },
+                { "@type": "City", name: "Madison", "@id": "https://en.wikipedia.org/wiki/Madison,_Alabama" },
+                { "@type": "City", name: "Harvest", "@id": "https://en.wikipedia.org/wiki/Harvest,_Alabama" },
+                { "@type": "City", name: "Meridianville" },
+                { "@type": "City", name: "Hazel Green" },
+                { "@type": "City", name: "New Market" },
+                { "@type": "City", name: "Toney" },
               ],
+              serviceArea: {
+                "@type": "GeoCircle",
+                geoMidpoint: {
+                  "@type": "GeoCoordinates",
+                  latitude: "34.7304",
+                  longitude: "-86.5861",
+                },
+                geoRadius: "30 mi",
+              },
               openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
                 dayOfWeek: [
@@ -102,6 +120,32 @@ export default function RootLayout({
                 ratingValue: "4.9",
                 reviewCount: "312",
               },
+              review: [
+                {
+                  "@type": "Review",
+                  author: { "@type": "Person", name: "Sarah M." },
+                  datePublished: "2025-07-15",
+                  reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+                  reviewBody:
+                    "Our AC went out on the hottest day of July. HSV HVAC Pros had a tech at our house within 45 minutes and had everything running by that afternoon. Fair price too.",
+                },
+                {
+                  "@type": "Review",
+                  author: { "@type": "Person", name: "James R." },
+                  datePublished: "2025-11-20",
+                  reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+                  reviewBody:
+                    "We've used them for furnace maintenance three years in a row. Always on time, always professional. They caught a cracked heat exchanger last winter that another company missed.",
+                },
+                {
+                  "@type": "Review",
+                  author: { "@type": "Person", name: "David C." },
+                  datePublished: "2026-01-08",
+                  reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+                  reviewBody:
+                    "Called at 11 PM on a Saturday when our heat pump died. They answered immediately and had someone out within an hour. No overtime charge, just honest service.",
+                },
+              ],
               hasOfferCatalog: {
                 "@type": "OfferCatalog",
                 name: "HVAC Services",

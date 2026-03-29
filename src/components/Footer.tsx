@@ -44,11 +44,16 @@ export default function Footer() {
               Services
             </h3>
             <ul className="mt-4 space-y-2.5" role="list">
-              {["AC Repair", "Heating Maintenance", "Emergency 24/7 Service", "System Installation", "Duct Cleaning", "Preventive Tune-Ups"].map(
+              {[
+                { label: "AC Repair", href: "/services/ac-repair" },
+                { label: "Heating Maintenance", href: "/services/heating-maintenance" },
+                { label: "Emergency 24/7 Service", href: "/services/emergency-hvac" },
+                { label: "System Installation", href: "/services/system-installation" },
+              ].map(
                 (s) => (
-                  <li key={s}>
-                    <a href="#services" className="text-sm transition-colors hover:text-white">
-                      {s}
+                  <li key={s.label}>
+                    <a href={s.href} className="text-sm transition-colors hover:text-white">
+                      {s.label}
                     </a>
                   </li>
                 )
