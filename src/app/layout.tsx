@@ -33,12 +33,22 @@ export const metadata: Metadata = {
     siteName: "HSV HVAC Pros",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "HSV HVAC Pros — Trusted HVAC Experts in Huntsville & North Alabama",
+        type: "image/png",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "HSV HVAC Pros | HVAC Huntsville AL",
     description:
       "Top-rated residential HVAC company serving Athens, Huntsville & North Alabama. AC repair, heating, emergency service. Call (256) 588-4712.",
+    images: ["/opengraph-image"],
   },
   robots: {
     index: true,
@@ -63,8 +73,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
       <head>
-        {/* Preconnect to CallRail for faster script loading */}
+        {/* Preconnect for performance */}
         <link rel="preconnect" href="https://cdn.callrail.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         {/* CallRail call tracking */}
         <script
           type="text/javascript"
@@ -159,7 +171,6 @@ export default function RootLayout({
                 target: "https://hsvhvacpros.com/#contact",
                 name: "Request a Free Estimate",
               },
-              sameAs: [],
               hasOfferCatalog: {
                 "@type": "OfferCatalog",
                 name: "HVAC Services",
@@ -186,6 +197,14 @@ export default function RootLayout({
                       "@type": "Service",
                       name: "Emergency HVAC Service",
                       description: "24/7 emergency heating and cooling service in Huntsville AL.",
+                    },
+                  },
+                  {
+                    "@type": "Offer",
+                    itemOffered: {
+                      "@type": "Service",
+                      name: "HVAC System Installation",
+                      description: "Professional AC, furnace, and heat pump installation for North Alabama homes.",
                     },
                   },
                 ],

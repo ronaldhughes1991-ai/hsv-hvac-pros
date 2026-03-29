@@ -1,6 +1,7 @@
 const services = [
   {
     id: "ac-repair",
+    href: "/services/ac-repair",
     title: "AC Repair",
     tagline: "Cool Comfort, Restored Fast",
     description:
@@ -14,6 +15,7 @@ const services = [
   },
   {
     id: "heating-maintenance",
+    href: "/services/heating-maintenance",
     title: "Heating Maintenance",
     tagline: "Prevent Breakdowns Before They Start",
     description:
@@ -28,6 +30,7 @@ const services = [
   },
   {
     id: "emergency-service",
+    href: "/services/emergency-hvac",
     title: "Emergency 24/7 Service",
     tagline: "When Minutes Matter, We're There",
     description:
@@ -115,12 +118,23 @@ export default function Services() {
                 ))}
               </ul>
 
-              <a
-                href="#contact"
-                className="mt-8 inline-flex items-center justify-center rounded-lg bg-blue-700 px-5 py-3 text-sm font-bold text-white transition-colors hover:bg-blue-800"
-              >
-                Schedule Service
-              </a>
+              <div className="mt-8 flex items-center gap-3">
+                <a
+                  href="#contact"
+                  className="inline-flex items-center justify-center rounded-lg bg-blue-700 px-5 py-3 text-sm font-bold text-white transition-colors hover:bg-blue-800"
+                >
+                  Schedule Service
+                </a>
+                <a
+                  href={s.href}
+                  className="inline-flex items-center gap-1 text-sm font-semibold text-blue-700 transition-colors hover:text-blue-900"
+                >
+                  Learn More
+                  <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4" aria-hidden="true">
+                    <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
+                  </svg>
+                </a>
+              </div>
             </article>
           ))}
         </div>
