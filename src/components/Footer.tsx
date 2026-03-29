@@ -111,7 +111,16 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 border-t border-slate-800 pt-8">
           <div className="flex flex-col items-center gap-4 text-center text-xs sm:flex-row sm:justify-between sm:text-left">
-            <p>&copy; {year} HSV HVAC Pros. All rights reserved.</p>
+            <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4">
+              <p>&copy; {year} HSV HVAC Pros. All rights reserved.</p>
+              <div className="flex gap-3">
+                <a href="/about" className="text-slate-500 transition-colors hover:text-white">About</a>
+                <span className="text-slate-700">|</span>
+                <a href="/privacy" className="text-slate-500 transition-colors hover:text-white">Privacy Policy</a>
+                <span className="text-slate-700">|</span>
+                <a href="/terms" className="text-slate-500 transition-colors hover:text-white">Terms of Service</a>
+              </div>
+            </div>
             <p className="text-slate-500">
               Proudly serving Athens, Huntsville, Madison, Harvest &amp; surrounding areas.
             </p>

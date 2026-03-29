@@ -1,7 +1,27 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo:*)",
+      "Bash(npx vercel:*)",
+      "Bash(curl -L -o \"C:\\\\Users\\\\ronal\\\\HVAC website\\\\public\\\\saturn-v.jpg\" \"https://images-assets.nasa.gov/image/KSC-69PC-241/KSC-69PC-241~orig.jpg\")",
+      "Bash(curl -L -o \"C:\\\\Users\\\\ronal\\\\HVAC website\\\\public\\\\saturn-v.jpg\" \"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Apollo_4_Saturn_V%2C_s67-50531.jpg/800px-Apollo_4_Saturn_V%2C_s67-50531.jpg\")",
+      "Bash(curl -L -o \"C:\\\\Users\\\\ronal\\\\HVAC website\\\\public\\\\saturn-v.jpg\" --max-redirs 10 -H \"User-Agent: Mozilla/5.0\" \"https://images-assets.nasa.gov/image/KSC-69PC-241/KSC-69PC-241~medium.jpg\")",
+      "Bash(curl -L -o \"C:\\\\Users\\\\ronal\\\\HVAC website\\\\public\\\\saturn-v.jpg\" --max-redirs 10 -H \"User-Agent: Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\)\" \"https://cdn.pixabay.com/photo/2012/11/28/10/34/rocket-launch-67643_640.jpg\")",
+      "WebFetch(domain:images.nasa.gov)",
+      "Bash(curl -s \"https://images-api.nasa.gov/search?q=saturn+v&media_type=image\")",
+      "Bash(curl -s \"https://images-api.nasa.gov/search?q=saturn+v+launch+pad&media_type=image\")",
+      "Bash(curl -L -o \"C:\\\\Users\\\\ronal\\\\HVAC website\\\\public\\\\saturn-v.jpg\" -H \"User-Agent: Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\)\" \"https://images-assets.nasa.gov/image/6900846/6900846~medium.jpg\")",
+      "Bash(curl -s \"https://images-api.nasa.gov/search?q=saturn+v+huntsville+alabama&media_type=image\")",
+      "Bash(curl -L -o \"C:\\\\Users\\\\ronal\\\\HVAC website\\\\public\\\\saturn-v-hsv.jpg\" -H \"User-Agent: Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\)\" \"https://images-assets.nasa.gov/image/9904852/9904852~medium.jpg\")",
+      "Bash(curl -L -o \"C:\\\\Users\\\\ronal\\\\HVAC website\\\\public\\\\saturn-v-hsv2.jpg\" -H \"User-Agent: Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\)\" \"https://images-assets.nasa.gov/image/9904851/9904851~medium.jpg\")",
+      "Bash(curl -s \"https://images-api.nasa.gov/search?q=space+rocket+center+huntsville&media_type=image\")",
+      "Bash(curl -s \"https://images-api.nasa.gov/search?q=saturn+v+display&media_type=image\")",
+      "Bash(curl -s \"https://images-api.nasa.gov/search?q=saturn+v+rocket+center+vertical&media_type=image\")",
+      "Bash(curl -s \"https://images-api.nasa.gov/search?q=saturn+v+rocket+vertical+alabama&media_type=image\")",
+      "Bash(ls -la \"C:\\\\Users\\\\ronal\\\\HVAC website\\\\public\"\"*.jpg \"C:UsersronalHVAC websitepublic\"\"*.jpeg \"C:\\\\Users\\\\ronal\\\\HVAC website\\\\public\"\"*.png \"C:UsersronalHVAC websitepublic\"\"*.webp)",
+      "Bash(node -e \":*)"
     ]
   }
 }

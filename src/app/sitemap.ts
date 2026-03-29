@@ -11,5 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/services/emergency-hvac`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${baseUrl}/services/system-installation`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${baseUrl}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${baseUrl}/privacy`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
+    { url: `${baseUrl}/terms`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
   ];
 }

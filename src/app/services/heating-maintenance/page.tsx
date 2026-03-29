@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "Heating Maintenance Huntsville AL | Furnace Service & Tune-Ups — HSV HVAC Pros",
@@ -12,6 +13,7 @@ export default function HeatingMaintenancePage() {
     <>
       {/* Hero */}
       <section className="hero-overlay grid-pattern bg-slate-900 text-white">
+        <Breadcrumbs items={[{ name: "Services", href: "/#services" }, { name: "Heating Maintenance", href: "/services/heating-maintenance" }]} />
         <div className="mx-auto max-w-4xl px-5 py-20 sm:py-28 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-widest text-blue-300">
             Heating Services

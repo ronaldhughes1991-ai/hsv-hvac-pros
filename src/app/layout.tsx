@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
-  variable: "--font-geist-sans",
+  variable: "--font-inter",
   subsets: ["latin"],
   display: "swap",
 });
@@ -47,6 +47,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://hsvhvacpros.com",
   },
+  other: {
+    "geo.region": "US-AL",
+    "geo.placename": "Huntsville",
+    "geo.position": "34.7304;-86.5861",
+    ICBM: "34.7304, -86.5861",
+  },
 };
 
 export default function RootLayout({
@@ -57,6 +63,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
       <head>
+        {/* Preconnect to CallRail for faster script loading */}
+        <link rel="preconnect" href="https://cdn.callrail.com" />
         {/* CallRail call tracking */}
         <script
           type="text/javascript"
@@ -146,6 +154,12 @@ export default function RootLayout({
                     "Called at 11 PM on a Saturday when our heat pump died. They answered immediately and had someone out within an hour. No overtime charge, just honest service.",
                 },
               ],
+              potentialAction: {
+                "@type": "CommunicateAction",
+                target: "https://hsvhvacpros.com/#contact",
+                name: "Request a Free Estimate",
+              },
+              sameAs: [],
               hasOfferCatalog: {
                 "@type": "OfferCatalog",
                 name: "HVAC Services",
@@ -180,7 +194,18 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="min-h-full flex flex-col" suppressHydrationWarning>{children}</body>
+      <body className="min-h-full flex flex-col" suppressHydrationWarning>
+        <noscript>
+          <div style={{ padding: "2rem", textAlign: "center", fontFamily: "sans-serif", background: "#1e40af", color: "white" }}>
+            <h1>HSV HVAC Pros</h1>
+            <p>Trusted HVAC Service in Athens, Huntsville &amp; North Alabama</p>
+            <p style={{ fontSize: "1.5rem", fontWeight: "bold", marginTop: "1rem" }}>
+              <a href="tel:+12565884712" style={{ color: "white" }}>(256) 588-4712</a>
+            </p>
+          </div>
+        </noscript>
+        {children}
+      </body>
     </html>
   );
 }
