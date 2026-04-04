@@ -98,7 +98,7 @@ export default function FAQ() {
       className="bg-white py-20 sm:py-28"
       aria-labelledby="faq-heading"
     >
-      <div className="mx-auto max-w-4xl px-5 lg:px-8">
+      <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <div className="text-center">
           <p className="text-sm font-bold uppercase tracking-widest text-blue-700">
             FAQ
@@ -114,31 +114,61 @@ export default function FAQ() {
           </p>
         </div>
 
-        <dl className="mt-12 space-y-3">
-          {faqs.map((faq) => (
-            <details
-              key={faq.question}
-              className="group rounded-xl border border-slate-200"
-            >
-              <summary className="flex cursor-pointer items-center justify-between p-5 text-base font-bold text-slate-900 marker:[content:'']">
-                <dt>{faq.question}</dt>
-                <svg
-                  className="h-5 w-5 shrink-0 text-slate-400 transition-transform group-open:rotate-180"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-                </svg>
-              </summary>
-              <dd className="px-5 pb-5 text-sm leading-7 text-slate-600">
-                {faq.answer}
-              </dd>
-            </details>
-          ))}
-        </dl>
+        <div className="mt-12 grid gap-3 lg:grid-cols-2">
+          {/* Left column */}
+          <dl className="space-y-3">
+            {faqs.slice(0, Math.ceil(faqs.length / 2)).map((faq) => (
+              <details
+                key={faq.question}
+                className="group rounded-xl border border-slate-200"
+              >
+                <summary className="flex cursor-pointer items-center justify-between p-5 text-base font-bold text-slate-900 marker:[content:'']">
+                  <dt>{faq.question}</dt>
+                  <svg
+                    className="h-5 w-5 shrink-0 text-slate-400 transition-transform group-open:rotate-180"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={2}
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                  </svg>
+                </summary>
+                <dd className="px-5 pb-5 text-sm leading-7 text-slate-600">
+                  {faq.answer}
+                </dd>
+              </details>
+            ))}
+          </dl>
+
+          {/* Right column */}
+          <dl className="space-y-3">
+            {faqs.slice(Math.ceil(faqs.length / 2)).map((faq) => (
+              <details
+                key={faq.question}
+                className="group rounded-xl border border-slate-200"
+              >
+                <summary className="flex cursor-pointer items-center justify-between p-5 text-base font-bold text-slate-900 marker:[content:'']">
+                  <dt>{faq.question}</dt>
+                  <svg
+                    className="h-5 w-5 shrink-0 text-slate-400 transition-transform group-open:rotate-180"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={2}
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                  </svg>
+                </summary>
+                <dd className="px-5 pb-5 text-sm leading-7 text-slate-600">
+                  {faq.answer}
+                </dd>
+              </details>
+            ))}
+          </dl>
+        </div>
       </div>
 
     </section>
