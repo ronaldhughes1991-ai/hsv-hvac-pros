@@ -106,7 +106,6 @@ export default function RootLayout({
               email: "info@hsvhvacpros.com",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "17108 Matthew Way",
                 addressLocality: "Athens",
                 addressRegion: "AL",
                 postalCode: "35611",

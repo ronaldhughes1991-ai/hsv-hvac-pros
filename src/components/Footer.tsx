@@ -117,7 +117,7 @@ export default function Footer() {
         {/* NAP Block */}
         <div className="mt-10 border-t border-slate-800 pt-8 text-center text-sm text-slate-400">
           <p className="font-semibold text-white">HSV HVAC Pros</p>
-          <p className="mt-1">17108 Matthew Way, Athens, AL 35611</p>
+          <p className="mt-1">Athens, AL 35611</p>
           <p className="mt-1">
             <a href="tel:+12565884712" className="font-semibold text-white hover:text-blue-300">
               (256) 588-4712
