@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "When to Call for Emergency HVAC Service (and When You Can Wait) | HSV HVAC Pros",
   description:
     "Know when HVAC problems are true emergencies vs. issues that can wait. Gas leaks, CO detectors, no heat in freezing temps, and what to expect for costs ($150-$350).",
-  alternates: { canonical: "https://hsvhvacpros.com/blog/emergency-hvac-when-to-call" },
+  alternates: { canonical: "https://www.hsvhvacpros.com/blog/emergency-hvac-when-to-call" },
 };
 
 export default function EmergencyHvacWhenToCall() {
@@ -198,10 +198,10 @@ export default function EmergencyHvacWhenToCall() {
             headline: "When to Call for Emergency HVAC Service (and When You Can Wait)",
             description:
               "Know when HVAC problems are true emergencies vs. issues that can wait. Gas leaks, CO detectors, no heat in freezing temps, and what to expect for costs ($150-$350).",
-            author: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://hsvhvacpros.com" },
-            publisher: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://hsvhvacpros.com" },
+            author: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://www.hsvhvacpros.com" },
+            publisher: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://www.hsvhvacpros.com" },
             datePublished: "2026-03-05",
-            mainEntityOfPage: "https://hsvhvacpros.com/blog/emergency-hvac-when-to-call",
+            mainEntityOfPage: "https://www.hsvhvacpros.com/blog/emergency-hvac-when-to-call",
           }),
         }}
       />

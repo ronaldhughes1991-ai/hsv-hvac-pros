@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Gas furnace vs electric heat pump cost breakdown for Alabama. TVA rates, installation costs, monthly bills, and 10-year total cost of ownership compared.",
   alternates: {
     canonical:
-      "https://hsvhvacpros.com/blog/gas-furnace-vs-electric-heat-pump-alabama",
+      "https://www.hsvhvacpros.com/blog/gas-furnace-vs-electric-heat-pump-alabama",
   },
 };
 
@@ -481,16 +481,16 @@ export default function GasFurnaceVsElectricHeatPumpAlabama() {
             author: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             publisher: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             datePublished: "2026-01-29",
             mainEntityOfPage:
-              "https://hsvhvacpros.com/blog/gas-furnace-vs-electric-heat-pump-alabama",
+              "https://www.hsvhvacpros.com/blog/gas-furnace-vs-electric-heat-pump-alabama",
           }),
         }}
       />

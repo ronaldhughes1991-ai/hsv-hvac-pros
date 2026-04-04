@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "24/7 Emergency HVAC Service Huntsville AL | After-Hours Repair — HSV HVAC Pros",
   description:
     "24/7 emergency HVAC repair in Huntsville, Athens & North Alabama. No overtime charges. AC & furnace emergencies answered immediately. Call (256) 588-4712.",
-  alternates: { canonical: "https://hsvhvacpros.com/services/emergency-hvac" },
+  alternates: { canonical: "https://www.hsvhvacpros.com/services/emergency-hvac" },
 };
 
 export default function EmergencyHVACPage() {
@@ -150,7 +150,7 @@ export default function EmergencyHVACPage() {
               "@type": "HVACBusiness",
               name: "HSV HVAC Pros",
               telephone: "256-588-4712",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             areaServed: [
               { "@type": "City", name: "Huntsville" },

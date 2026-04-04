@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Get your AC ready before Alabama's brutal summer heat arrives. This step-by-step guide helps North Alabama homeowners avoid mid-summer breakdowns and high bills.",
   alternates: {
-    canonical: "https://hsvhvacpros.com/blog/prepare-hvac-alabama-summer",
+    canonical: "https://www.hsvhvacpros.com/blog/prepare-hvac-alabama-summer",
   },
 };
 
@@ -352,16 +352,16 @@ export default function PrepareHvacAlabamaSummer() {
             author: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             publisher: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             datePublished: "2026-04-04",
             mainEntityOfPage:
-              "https://hsvhvacpros.com/blog/prepare-hvac-alabama-summer",
+              "https://www.hsvhvacpros.com/blog/prepare-hvac-alabama-summer",
           }),
         }}
       />

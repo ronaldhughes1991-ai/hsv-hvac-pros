@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Find out when HVAC permits are required in Huntsville and Madison, AL. Learn about local codes, inspection requirements, and why licensed contractors handle this for you.",
   alternates: {
-    canonical: "https://hsvhvacpros.com/blog/hvac-permit-requirements-huntsville-madison",
+    canonical: "https://www.hsvhvacpros.com/blog/hvac-permit-requirements-huntsville-madison",
   },
 };
 
@@ -295,16 +295,16 @@ export default function HvacPermitRequirements() {
             author: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             publisher: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             datePublished: "2026-03-20",
             mainEntityOfPage:
-              "https://hsvhvacpros.com/blog/hvac-permit-requirements-huntsville-madison",
+              "https://www.hsvhvacpros.com/blog/hvac-permit-requirements-huntsville-madison",
           }),
         }}
       />

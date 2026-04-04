@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Heating Maintenance Huntsville AL | Furnace Service & Tune-Ups — HSV HVAC Pros",
   description:
     "Professional furnace maintenance & heating tune-ups in Huntsville, Athens & North Alabama. Prevent breakdowns, lower energy bills. Call (256) 588-4712.",
-  alternates: { canonical: "https://hsvhvacpros.com/services/heating-maintenance" },
+  alternates: { canonical: "https://www.hsvhvacpros.com/services/heating-maintenance" },
 };
 
 export default function HeatingMaintenancePage() {
@@ -151,7 +151,7 @@ export default function HeatingMaintenancePage() {
               "@type": "HVACBusiness",
               name: "HSV HVAC Pros",
               telephone: "256-588-4712",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             areaServed: [
               { "@type": "City", name: "Huntsville" },

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Compare heat pumps vs furnaces for North Alabama homes. Costs, efficiency, and which system works best for Huntsville's mild winters. Expert advice inside.",
   alternates: {
-    canonical: "https://hsvhvacpros.com/blog/heat-pump-vs-furnace-north-alabama",
+    canonical: "https://www.hsvhvacpros.com/blog/heat-pump-vs-furnace-north-alabama",
   },
 };
 
@@ -457,16 +457,16 @@ export default function HeatPumpVsFurnaceNorthAlabama() {
             author: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             publisher: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             datePublished: "2026-01-08",
             mainEntityOfPage:
-              "https://hsvhvacpros.com/blog/heat-pump-vs-furnace-north-alabama",
+              "https://www.hsvhvacpros.com/blog/heat-pump-vs-furnace-north-alabama",
           }),
         }}
       />

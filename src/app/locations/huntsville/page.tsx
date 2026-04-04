@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "HVAC Services in Huntsville, AL — AC Repair, Heating & Emergency | HSV HVAC Pros",
   description:
     "Trusted HVAC service in Huntsville, Alabama. Our network of vetted technicians provides AC repair, heating maintenance, emergency service & system installation. Call (256) 588-4712.",
-  alternates: { canonical: "https://hsvhvacpros.com/locations/huntsville" },
+  alternates: { canonical: "https://www.hsvhvacpros.com/locations/huntsville" },
 };
 
 export default function HuntsvillePage() {
@@ -179,7 +179,7 @@ export default function HuntsvillePage() {
               "@type": "HVACBusiness",
               name: "HSV HVAC Pros",
               telephone: "256-588-4712",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             areaServed: {
               "@type": "City",

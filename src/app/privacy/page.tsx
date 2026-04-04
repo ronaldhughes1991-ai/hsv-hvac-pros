@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Privacy Policy — HSV HVAC Pros",
   description: "Privacy policy for HSV HVAC Pros. Learn how we collect, use, and protect your personal information.",
-  alternates: { canonical: "https://hsvhvacpros.com/privacy" },
+  alternates: { canonical: "https://www.hsvhvacpros.com/privacy" },
 };
 
 export default function PrivacyPage() {

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "How Long Does HVAC Installation Take? Timeline for North Alabama | HSV HVAC Pros",
   description:
     "Planning an HVAC installation? Learn typical timelines for North Alabama, from the initial quote to final inspection, so you can schedule around your life.",
-  alternates: { canonical: "https://hsvhvacpros.com/blog/hvac-installation-timeline" },
+  alternates: { canonical: "https://www.hsvhvacpros.com/blog/hvac-installation-timeline" },
 };
 
 export default function HvacInstallationTimeline() {
@@ -273,15 +273,15 @@ export default function HvacInstallationTimeline() {
             author: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             publisher: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             datePublished: "2026-03-17",
-            mainEntityOfPage: "https://hsvhvacpros.com/blog/hvac-installation-timeline",
+            mainEntityOfPage: "https://www.hsvhvacpros.com/blog/hvac-installation-timeline",
           }),
         }}
       />

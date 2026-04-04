@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "R-22 refrigerant is no longer manufactured, and prices keep climbing. Learn your options if your North Alabama AC still uses R-22 Freon.",
   alternates: {
-    canonical: "https://hsvhvacpros.com/blog/r22-freon-phase-out-north-alabama",
+    canonical: "https://www.hsvhvacpros.com/blog/r22-freon-phase-out-north-alabama",
   },
 };
 
@@ -278,16 +278,16 @@ export default function R22FreonPhaseOut() {
             author: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             publisher: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             datePublished: "2026-03-25",
             mainEntityOfPage:
-              "https://hsvhvacpros.com/blog/r22-freon-phase-out-north-alabama",
+              "https://www.hsvhvacpros.com/blog/r22-freon-phase-out-north-alabama",
           }),
         }}
       />

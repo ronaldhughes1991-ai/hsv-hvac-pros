@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://hsvhvacpros.com"),
+  metadataBase: new URL("https://www.hsvhvacpros.com"),
   title: "HSV HVAC Pros | HVAC Huntsville AL — AC Repair, Heating & Emergency Service",
   description:
     "Top-rated HVAC company in Athens & Huntsville, AL. Residential air conditioning repair, emergency furnace service North Alabama, heating maintenance. Serving Athens, Huntsville, Madison, and Harvest. Call (256) 588-4712 for a free estimate.",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: "HSV HVAC Pros | Huntsville's Trusted HVAC Experts",
     description:
       "Residential AC repair, heating maintenance & 24/7 emergency HVAC service in Athens, Huntsville & North Alabama. Licensed, insured & locally owned.",
-    url: "https://hsvhvacpros.com",
+    url: "https://www.hsvhvacpros.com",
     siteName: "HSV HVAC Pros",
     type: "website",
     locale: "en_US",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://hsvhvacpros.com",
+    canonical: "https://www.hsvhvacpros.com",
   },
   other: {
     "geo.region": "US-AL",
@@ -78,11 +78,11 @@ export default function RootLayout({
         <link rel="preconnect" href="https://cdn.callrail.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        {/* Google Analytics 4 — replace G-XXXXXXXXXX with your measurement ID */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" />
+        {/* Google Analytics 4 — replace G-LVTGGC0PKH with your measurement ID */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LVTGGC0PKH" />
         <script
           dangerouslySetInnerHTML={{
-            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');`,
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-LVTGGC0PKH');`,
           }}
         />
         {/* CallRail call tracking */}
@@ -98,16 +98,18 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "HVACBusiness",
               name: "HSV HVAC Pros",
-              image: "https://hsvhvacpros.com/logo.png",
+              image: "https://www.hsvhvacpros.com/logo.png",
               description:
                 "Connecting North Alabama homeowners with vetted, licensed HVAC professionals for repair, installation, and maintenance.",
-              url: "https://hsvhvacpros.com",
-              telephone: "256-588-4712",
+              url: "https://www.hsvhvacpros.com",
+              telephone: "+1-256-588-4712",
               email: "info@hsvhvacpros.com",
               address: {
                 "@type": "PostalAddress",
+                streetAddress: "17108 Matthew Way",
                 addressLocality: "Athens",
                 addressRegion: "AL",
+                postalCode: "35611",
                 addressCountry: "US",
               },
               geo: {
@@ -182,7 +184,7 @@ export default function RootLayout({
               ],
               potentialAction: {
                 "@type": "CommunicateAction",
-                target: "https://hsvhvacpros.com/#contact",
+                target: "https://www.hsvhvacpros.com/#contact",
                 name: "Request a Free Estimate",
               },
               hasOfferCatalog: {

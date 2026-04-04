@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "HVAC Services in New Market, AL — AC Repair, Heating & Emergency | HSV HVAC Pros",
   description:
     "Trusted HVAC service in New Market, Alabama. Our network of vetted technicians provides AC repair, heating maintenance, emergency service & system installation. Call (256) 588-4712.",
-  alternates: { canonical: "https://hsvhvacpros.com/locations/new-market" },
+  alternates: { canonical: "https://www.hsvhvacpros.com/locations/new-market" },
 };
 
 export default function NewMarketPage() {
@@ -182,7 +182,7 @@ export default function NewMarketPage() {
               "@type": "HVACBusiness",
               name: "HSV HVAC Pros",
               telephone: "256-588-4712",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             areaServed: {
               "@type": "City",

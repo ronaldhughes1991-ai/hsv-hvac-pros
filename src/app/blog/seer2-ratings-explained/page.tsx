@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Understanding SEER2 Ratings: What Huntsville Homeowners Need to Know | HSV HVAC Pros",
   description:
     "SEER2 ratings explained for Huntsville homeowners. Learn minimums for Alabama, SEER vs SEER2 conversion, cost savings per rating point, and what to target.",
-  alternates: { canonical: "https://hsvhvacpros.com/blog/seer2-ratings-explained" },
+  alternates: { canonical: "https://www.hsvhvacpros.com/blog/seer2-ratings-explained" },
 };
 
 export default function Seer2RatingsExplained() {
@@ -221,10 +221,10 @@ export default function Seer2RatingsExplained() {
             headline: "Understanding SEER2 Ratings: What Huntsville Homeowners Need to Know",
             description:
               "SEER2 ratings explained for Huntsville homeowners. Learn minimums for Alabama, SEER vs SEER2 conversion, cost savings per rating point, and what to target.",
-            author: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://hsvhvacpros.com" },
-            publisher: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://hsvhvacpros.com" },
+            author: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://www.hsvhvacpros.com" },
+            publisher: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://www.hsvhvacpros.com" },
             datePublished: "2026-03-10",
-            mainEntityOfPage: "https://hsvhvacpros.com/blog/seer2-ratings-explained",
+            mainEntityOfPage: "https://www.hsvhvacpros.com/blog/seer2-ratings-explained",
           }),
         }}
       />

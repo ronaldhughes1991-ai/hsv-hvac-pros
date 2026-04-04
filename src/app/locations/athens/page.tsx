@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "HVAC Services in Athens, AL — AC Repair, Heating & Emergency | HSV HVAC Pros",
   description:
     "Trusted HVAC service in Athens, Alabama. Our network of vetted technicians provides AC repair, heating maintenance, emergency service & system installation. Call (256) 588-4712.",
-  alternates: { canonical: "https://hsvhvacpros.com/locations/athens" },
+  alternates: { canonical: "https://www.hsvhvacpros.com/locations/athens" },
 };
 
 export default function AthensPage() {
@@ -177,7 +177,7 @@ export default function AthensPage() {
               "@type": "HVACBusiness",
               name: "HSV HVAC Pros",
               telephone: "256-588-4712",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             areaServed: {
               "@type": "City",

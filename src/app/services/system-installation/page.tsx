@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "HVAC Installation Huntsville AL | New AC & Furnace Systems — HSV HVAC Pros",
   description:
     "Professional HVAC system installation in Huntsville, Athens & North Alabama. New AC units, furnaces, heat pumps. Free estimates, financing available. Call (256) 588-4712.",
-  alternates: { canonical: "https://hsvhvacpros.com/services/system-installation" },
+  alternates: { canonical: "https://www.hsvhvacpros.com/services/system-installation" },
 };
 
 export default function SystemInstallationPage() {
@@ -186,7 +186,7 @@ export default function SystemInstallationPage() {
               "@type": "HVACBusiness",
               name: "HSV HVAC Pros",
               telephone: "256-588-4712",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             areaServed: [
               { "@type": "City", name: "Huntsville" },

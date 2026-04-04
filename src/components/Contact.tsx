@@ -75,6 +75,20 @@ export default function Contact() {
                 </div>
               </div>
             </dl>
+
+            {/* Google Maps */}
+            <div className="mt-8 overflow-hidden rounded-xl border border-slate-200">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13121.6888!2d-86.6308748!3d34.6945295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6f243915a92de621:0x9bbd504ae92297d7!2sHSV+HVAC+Pros!5e0!3m2!1sen!2sus!4v1700000000000"
+                width="100%"
+                height="250"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="HSV HVAC Pros location on Google Maps"
+              />
+            </div>
           </div>
 
           {/* Form panel — 3 cols */}

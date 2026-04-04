@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "HVAC Tips & Guides for North Alabama Homeowners | HSV HVAC Pros",
   description:
     "Expert HVAC tips, buying guides, and maintenance advice for Huntsville, Madison, and North Alabama homeowners. Stay comfortable and save money year-round.",
-  alternates: { canonical: "https://hsvhvacpros.com/blog" },
+  alternates: { canonical: "https://www.hsvhvacpros.com/blog" },
 };
 
 const categoryColors: Record<string, string> = {
@@ -31,17 +31,17 @@ export default function BlogPage() {
     name: "HSV HVAC Pros Blog",
     description:
       "Expert HVAC tips, buying guides, and maintenance advice for North Alabama homeowners.",
-    url: "https://hsvhvacpros.com/blog",
+    url: "https://www.hsvhvacpros.com/blog",
     publisher: {
       "@type": "Organization",
       name: "HSV HVAC Pros",
-      url: "https://hsvhvacpros.com",
+      url: "https://www.hsvhvacpros.com",
     },
     blogPost: blogPosts.map((post) => ({
       "@type": "BlogPosting",
       headline: post.title,
       description: post.description,
-      url: `https://hsvhvacpros.com/blog/${post.slug}`,
+      url: `https://www.hsvhvacpros.com/blog/${post.slug}`,
       datePublished: post.publishedAt,
       publisher: {
         "@type": "Organization",

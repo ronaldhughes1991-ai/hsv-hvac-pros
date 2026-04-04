@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Should you repair or replace your HVAC system? Use the $5,000 rule, age thresholds, and our decision checklist to make the smart call. Huntsville area pricing.",
   alternates: {
-    canonical: "https://hsvhvacpros.com/blog/repair-vs-replace-hvac",
+    canonical: "https://www.hsvhvacpros.com/blog/repair-vs-replace-hvac",
   },
 };
 
@@ -407,16 +407,16 @@ export default function RepairVsReplaceHvac() {
             author: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             publisher: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             datePublished: "2026-01-15",
             mainEntityOfPage:
-              "https://hsvhvacpros.com/blog/repair-vs-replace-hvac",
+              "https://www.hsvhvacpros.com/blog/repair-vs-replace-hvac",
           }),
         }}
       />

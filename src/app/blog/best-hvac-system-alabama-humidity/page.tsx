@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Best HVAC System for Alabama Humidity: Complete Buyer's Guide | HSV HVAC Pros",
   description:
     "Find the best HVAC system for Alabama humidity. Compare variable-speed vs single-stage, SEER2 ratings, dehumidification features, and prices from $5,500-$12,000.",
-  alternates: { canonical: "https://hsvhvacpros.com/blog/best-hvac-system-alabama-humidity" },
+  alternates: { canonical: "https://www.hsvhvacpros.com/blog/best-hvac-system-alabama-humidity" },
 };
 
 export default function BestHvacSystemAlabamaHumidity() {
@@ -174,10 +174,10 @@ export default function BestHvacSystemAlabamaHumidity() {
             headline: "Best HVAC System for Alabama Humidity: Complete Buyer's Guide",
             description:
               "Find the best HVAC system for Alabama humidity. Compare variable-speed vs single-stage, SEER2 ratings, dehumidification features, and prices from $5,500-$12,000.",
-            author: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://hsvhvacpros.com" },
-            publisher: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://hsvhvacpros.com" },
+            author: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://www.hsvhvacpros.com" },
+            publisher: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://www.hsvhvacpros.com" },
             datePublished: "2026-02-12",
-            mainEntityOfPage: "https://hsvhvacpros.com/blog/best-hvac-system-alabama-humidity",
+            mainEntityOfPage: "https://www.hsvhvacpros.com/blog/best-hvac-system-alabama-humidity",
           }),
         }}
       />

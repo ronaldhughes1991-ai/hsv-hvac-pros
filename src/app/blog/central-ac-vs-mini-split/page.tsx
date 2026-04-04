@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Central AC vs ductless mini-split comparison for Huntsville homeowners. Costs, efficiency, installation, and which system fits your home best.",
   alternates: {
-    canonical: "https://hsvhvacpros.com/blog/central-ac-vs-mini-split",
+    canonical: "https://www.hsvhvacpros.com/blog/central-ac-vs-mini-split",
   },
 };
 
@@ -498,16 +498,16 @@ export default function CentralAcVsMiniSplit() {
             author: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             publisher: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             datePublished: "2026-01-22",
             mainEntityOfPage:
-              "https://hsvhvacpros.com/blog/central-ac-vs-mini-split",
+              "https://www.hsvhvacpros.com/blog/central-ac-vs-mini-split",
           }),
         }}
       />

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "How to Lower Your Electric Bill in Huntsville, Alabama | HSV HVAC Pros",
   description:
     "Practical tips to lower your Huntsville electric bill. Thermostat strategies, duct sealing, maintenance, and more — with specific dollar savings for each tip.",
-  alternates: { canonical: "https://hsvhvacpros.com/blog/lower-electric-bill-huntsville-alabama" },
+  alternates: { canonical: "https://www.hsvhvacpros.com/blog/lower-electric-bill-huntsville-alabama" },
 };
 
 export default function LowerElectricBillHuntsvilleAlabama() {
@@ -170,10 +170,10 @@ export default function LowerElectricBillHuntsvilleAlabama() {
             headline: "How to Lower Your Electric Bill in Huntsville, Alabama",
             description:
               "Practical tips to lower your Huntsville electric bill. Thermostat strategies, duct sealing, maintenance, and more — with specific dollar savings for each tip.",
-            author: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://hsvhvacpros.com" },
-            publisher: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://hsvhvacpros.com" },
+            author: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://www.hsvhvacpros.com" },
+            publisher: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://www.hsvhvacpros.com" },
             datePublished: "2026-02-19",
-            mainEntityOfPage: "https://hsvhvacpros.com/blog/lower-electric-bill-huntsville-alabama",
+            mainEntityOfPage: "https://www.hsvhvacpros.com/blog/lower-electric-bill-huntsville-alabama",
           }),
         }}
       />

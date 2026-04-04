@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Leaky or damaged ductwork can waste up to 30% of your conditioned air. Spot these five warning signs before they drive up your North Alabama energy bills.",
   alternates: {
-    canonical: "https://hsvhvacpros.com/blog/signs-ductwork-needs-repair",
+    canonical: "https://www.hsvhvacpros.com/blog/signs-ductwork-needs-repair",
   },
 };
 
@@ -299,16 +299,16 @@ export default function SignsDuctworkNeedsRepair() {
             author: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             publisher: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             datePublished: "2026-03-31",
             mainEntityOfPage:
-              "https://hsvhvacpros.com/blog/signs-ductwork-needs-repair",
+              "https://www.hsvhvacpros.com/blog/signs-ductwork-needs-repair",
           }),
         }}
       />

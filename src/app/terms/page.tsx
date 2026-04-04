@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Terms of Service — HSV HVAC Pros",
   description: "Terms of service for HSV HVAC Pros. Read our service agreement, warranty information, and policies.",
-  alternates: { canonical: "https://hsvhvacpros.com/terms" },
+  alternates: { canonical: "https://www.hsvhvacpros.com/terms" },
 };
 
 export default function TermsPage() {

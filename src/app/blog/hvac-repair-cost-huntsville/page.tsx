@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "2026 HVAC repair costs in Huntsville, AL. Pricing for capacitors, compressors, refrigerant, blower motors, coils & more. Know what to expect before you call.",
   alternates: {
-    canonical: "https://hsvhvacpros.com/blog/hvac-repair-cost-huntsville",
+    canonical: "https://www.hsvhvacpros.com/blog/hvac-repair-cost-huntsville",
   },
 };
 
@@ -547,16 +547,16 @@ export default function HvacRepairCostHuntsville() {
             author: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             publisher: {
               "@type": "Organization",
               name: "HSV HVAC Pros",
-              url: "https://hsvhvacpros.com",
+              url: "https://www.hsvhvacpros.com",
             },
             datePublished: "2026-02-05",
             mainEntityOfPage:
-              "https://hsvhvacpros.com/blog/hvac-repair-cost-huntsville",
+              "https://www.hsvhvacpros.com/blog/hvac-repair-cost-huntsville",
           }),
         }}
       />
