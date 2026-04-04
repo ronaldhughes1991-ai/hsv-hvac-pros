@@ -521,6 +521,23 @@ export default function HvacRepairCostHuntsville() {
             </ul>
           </div>
 
+          {/* Related Articles */}
+          <div className="mt-8 rounded-xl border border-slate-200 p-6">
+            <h3 className="text-lg font-bold text-slate-900">Related Articles</h3>
+            <ul className="mt-3 space-y-2">
+              <li>
+                <a href="/blog/repair-vs-replace-hvac" className="text-sm font-semibold text-blue-700 hover:text-blue-800">
+                  Repair vs Replace: When Is It Time for a New HVAC System? &rarr;
+                </a>
+              </li>
+              <li>
+                <a href="/blog/emergency-hvac-when-to-call" className="text-sm font-semibold text-blue-700 hover:text-blue-800">
+                  When to Call for Emergency HVAC Service &rarr;
+                </a>
+              </li>
+            </ul>
+          </div>
+
           {/* CTA box */}
           <div className="mt-14 rounded-2xl bg-blue-50 p-8 text-center sm:p-10">
             <h3 className="text-2xl font-extrabold text-slate-900">
@@ -562,6 +579,7 @@ export default function HvacRepairCostHuntsville() {
               url: "https://www.hsvhvacpros.com",
             },
             datePublished: "2026-02-05",
+            dateModified: "2026-04-04",
             mainEntityOfPage:
               "https://www.hsvhvacpros.com/blog/hvac-repair-cost-huntsville",
           }),

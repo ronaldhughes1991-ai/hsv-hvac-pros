@@ -7,6 +7,12 @@ export const metadata: Metadata = {
   description:
     "Since 2009, HSV HVAC Pros has connected North Alabama homeowners with vetted, licensed HVAC professionals. Serving Athens, Huntsville, Madison & surrounding areas. 4.9★ rated.",
   alternates: { canonical: "https://www.hsvhvacpros.com/about" },
+  openGraph: {
+    title: "About HSV HVAC Pros | HVAC Service Network — Athens & Huntsville AL",
+    description:
+      "Since 2009, HSV HVAC Pros has connected North Alabama homeowners with vetted, licensed HVAC professionals. Serving Athens, Huntsville, Madison & surrounding areas.",
+    url: "https://www.hsvhvacpros.com/about",
+  },
 };
 
 export default function AboutPage() {

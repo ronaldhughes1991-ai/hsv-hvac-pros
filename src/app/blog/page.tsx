@@ -8,6 +8,12 @@ export const metadata: Metadata = {
   description:
     "Expert HVAC tips, buying guides, and maintenance advice for Huntsville, Madison, and North Alabama homeowners. Stay comfortable and save money year-round.",
   alternates: { canonical: "https://www.hsvhvacpros.com/blog" },
+  openGraph: {
+    title: "HVAC Tips & Guides for North Alabama Homeowners",
+    description:
+      "Expert HVAC tips, buying guides, and maintenance advice for Huntsville, Madison, and North Alabama homeowners. Stay comfortable and save money year-round.",
+    url: "https://www.hsvhvacpros.com/blog",
+  },
 };
 
 const categoryColors: Record<string, string> = {

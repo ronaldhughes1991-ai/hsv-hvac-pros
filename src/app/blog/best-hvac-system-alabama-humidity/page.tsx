@@ -153,6 +153,23 @@ export default function BestHvacSystemAlabamaHumidity() {
             </ul>
           </div>
 
+          {/* Related Articles */}
+          <div className="mt-8 rounded-xl border border-slate-200 p-6">
+            <h3 className="text-lg font-bold text-slate-900">Related Articles</h3>
+            <ul className="mt-3 space-y-2">
+              <li>
+                <a href="/blog/central-ac-vs-mini-split" className="text-sm font-semibold text-blue-700 hover:text-blue-800">
+                  Central AC vs Mini-Split: Which Is Right for Your Home? &rarr;
+                </a>
+              </li>
+              <li>
+                <a href="/blog/seer2-ratings-explained" className="text-sm font-semibold text-blue-700 hover:text-blue-800">
+                  Understanding SEER2 Ratings: What Homeowners Need to Know &rarr;
+                </a>
+              </li>
+            </ul>
+          </div>
+
           {/* CTA box */}
           <div className="mt-14 rounded-2xl bg-blue-50 p-8 text-center sm:p-10">
             <h3 className="text-2xl font-extrabold text-slate-900">
@@ -184,6 +201,7 @@ export default function BestHvacSystemAlabamaHumidity() {
             author: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://www.hsvhvacpros.com" },
             publisher: { "@type": "Organization", name: "HSV HVAC Pros", url: "https://www.hsvhvacpros.com" },
             datePublished: "2026-02-12",
+            dateModified: "2026-04-04",
             mainEntityOfPage: "https://www.hsvhvacpros.com/blog/best-hvac-system-alabama-humidity",
           }),
         }}
