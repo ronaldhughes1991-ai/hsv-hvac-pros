@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   description:
     "Fast, affordable AC repair in Huntsville, Athens, Madison & North Alabama. Same-day service, upfront pricing, all brands. Call (256) 588-4712 for emergency air conditioning repair.",
   alternates: { canonical: "https://www.hsvhvacpros.com/services/ac-repair" },
+  openGraph: {
+    title: "AC Repair Huntsville AL | Same-Day Air Conditioning Service",
+    description:
+      "Fast, affordable AC repair in Huntsville, Athens, Madison & North Alabama. Same-day service, upfront pricing, all brands.",
+    url: "https://www.hsvhvacpros.com/services/ac-repair",
+  },
 };
 
 export default function ACRepairPage() {

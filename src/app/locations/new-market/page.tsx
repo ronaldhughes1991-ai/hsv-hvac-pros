@@ -6,6 +6,18 @@ export const metadata: Metadata = {
   description:
     "Trusted HVAC service in New Market, Alabama. Our network of vetted technicians provides AC repair, heating maintenance, emergency service & system installation. Call (256) 588-4712.",
   alternates: { canonical: "https://www.hsvhvacpros.com/locations/new-market" },
+  openGraph: {
+    title: "HVAC Services in New Market, AL — AC Repair, Heating & Emergency",
+    description:
+      "Trusted HVAC service in New Market, Alabama. Our network of vetted technicians provides AC repair, heating maintenance, emergency service & system installation.",
+    url: "https://www.hsvhvacpros.com/locations/new-market",
+  },
+  other: {
+    "geo.region": "US-AL",
+    "geo.placename": "New Market",
+    "geo.position": "34.9098;-86.4283",
+    ICBM: "34.9098, -86.4283",
+  },
 };
 
 export default function NewMarketPage() {

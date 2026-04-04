@@ -8,6 +8,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.hsvhvacpros.com/blog/hvac-permit-requirements-huntsville-madison",
   },
+  openGraph: {
+    title: "Do I Need a Permit for HVAC Work in Huntsville or Madison?",
+    description:
+      "Find out when HVAC permits are required in Huntsville and Madison, AL. Learn about local codes, inspection requirements, and why licensed contractors handle this for you.",
+    url: "https://www.hsvhvacpros.com/blog/hvac-permit-requirements-huntsville-madison",
+    type: "article",
+  },
 };
 
 export default function HvacPermitRequirements() {

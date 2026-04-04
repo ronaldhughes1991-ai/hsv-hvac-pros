@@ -9,6 +9,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.hsvhvacpros.com/blog/central-ac-vs-mini-split",
   },
+  openGraph: {
+    title: "Central AC vs Mini-Split: Which Is Right for Your Home?",
+    description:
+      "Central AC vs ductless mini-split comparison for Huntsville homeowners. Costs, efficiency, installation, and which system fits your home best.",
+    url: "https://www.hsvhvacpros.com/blog/central-ac-vs-mini-split",
+    type: "article",
+  },
 };
 
 export default function CentralAcVsMiniSplit() {

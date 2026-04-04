@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   description:
     "Know when HVAC problems are true emergencies vs. issues that can wait. Gas leaks, CO detectors, no heat in freezing temps, and what to expect for costs ($150-$350).",
   alternates: { canonical: "https://www.hsvhvacpros.com/blog/emergency-hvac-when-to-call" },
+  openGraph: {
+    title: "When to Call for Emergency HVAC Service (and When You Can Wait)",
+    description:
+      "Know when HVAC problems are true emergencies vs. issues that can wait. Gas leaks, CO detectors, no heat in freezing temps, and what to expect for costs ($150-$350).",
+    url: "https://www.hsvhvacpros.com/blog/emergency-hvac-when-to-call",
+    type: "article",
+  },
 };
 
 export default function EmergencyHvacWhenToCall() {

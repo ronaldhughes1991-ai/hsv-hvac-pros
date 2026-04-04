@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   description:
     "Planning an HVAC installation? Learn typical timelines for North Alabama, from the initial quote to final inspection, so you can schedule around your life.",
   alternates: { canonical: "https://www.hsvhvacpros.com/blog/hvac-installation-timeline" },
+  openGraph: {
+    title: "How Long Does HVAC Installation Take? Timeline for North Alabama",
+    description:
+      "Planning an HVAC installation? Learn typical timelines for North Alabama, from the initial quote to final inspection, so you can schedule around your life.",
+    url: "https://www.hsvhvacpros.com/blog/hvac-installation-timeline",
+    type: "article",
+  },
 };
 
 export default function HvacInstallationTimeline() {

@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   description:
     "Practical tips to lower your Huntsville electric bill. Thermostat strategies, duct sealing, maintenance, and more — with specific dollar savings for each tip.",
   alternates: { canonical: "https://www.hsvhvacpros.com/blog/lower-electric-bill-huntsville-alabama" },
+  openGraph: {
+    title: "How to Lower Your Electric Bill in Huntsville, Alabama",
+    description:
+      "Practical tips to lower your Huntsville electric bill. Thermostat strategies, duct sealing, maintenance, and more — with specific dollar savings for each tip.",
+    url: "https://www.hsvhvacpros.com/blog/lower-electric-bill-huntsville-alabama",
+    type: "article",
+  },
 };
 
 export default function LowerElectricBillHuntsvilleAlabama() {

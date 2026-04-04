@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   description:
     "SEER2 ratings explained for Huntsville homeowners. Learn minimums for Alabama, SEER vs SEER2 conversion, cost savings per rating point, and what to target.",
   alternates: { canonical: "https://www.hsvhvacpros.com/blog/seer2-ratings-explained" },
+  openGraph: {
+    title: "Understanding SEER2 Ratings: What Huntsville Homeowners Need to Know",
+    description:
+      "SEER2 ratings explained for Huntsville homeowners. Learn minimums for Alabama, SEER vs SEER2 conversion, cost savings per rating point, and what to target.",
+    url: "https://www.hsvhvacpros.com/blog/seer2-ratings-explained",
+    type: "article",
+  },
 };
 
 export default function Seer2RatingsExplained() {

@@ -6,6 +6,18 @@ export const metadata: Metadata = {
   description:
     "Trusted HVAC service in Toney, Alabama. Our network of vetted technicians provides AC repair, heating maintenance, emergency service & system installation. Call (256) 588-4712.",
   alternates: { canonical: "https://www.hsvhvacpros.com/locations/toney" },
+  openGraph: {
+    title: "HVAC Services in Toney, AL — AC Repair, Heating & Emergency",
+    description:
+      "Trusted HVAC service in Toney, Alabama. Our network of vetted technicians provides AC repair, heating maintenance, emergency service & system installation.",
+    url: "https://www.hsvhvacpros.com/locations/toney",
+  },
+  other: {
+    "geo.region": "US-AL",
+    "geo.placename": "Toney",
+    "geo.position": "34.8876;-86.7261",
+    ICBM: "34.8876, -86.7261",
+  },
 };
 
 export default function ToneyPage() {

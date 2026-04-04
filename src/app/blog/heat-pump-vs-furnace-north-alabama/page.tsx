@@ -8,6 +8,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.hsvhvacpros.com/blog/heat-pump-vs-furnace-north-alabama",
   },
+  openGraph: {
+    title: "Heat Pump vs Furnace: Which Is Better for North Alabama?",
+    description:
+      "Compare heat pumps vs furnaces for North Alabama homes. Costs, efficiency, and which system works best for Huntsville's mild winters. Expert advice inside.",
+    url: "https://www.hsvhvacpros.com/blog/heat-pump-vs-furnace-north-alabama",
+    type: "article",
+  },
 };
 
 export default function HeatPumpVsFurnaceNorthAlabama() {

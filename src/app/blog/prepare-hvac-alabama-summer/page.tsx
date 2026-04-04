@@ -9,6 +9,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.hsvhvacpros.com/blog/prepare-hvac-alabama-summer",
   },
+  openGraph: {
+    title: "Preparing Your HVAC System for Alabama Summer: A Complete Guide",
+    description:
+      "Get your AC ready before Alabama's brutal summer heat arrives. This step-by-step guide helps North Alabama homeowners avoid mid-summer breakdowns and high bills.",
+    url: "https://www.hsvhvacpros.com/blog/prepare-hvac-alabama-summer",
+    type: "article",
+  },
 };
 
 export default function PrepareHvacAlabamaSummer() {

@@ -9,6 +9,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.hsvhvacpros.com/blog/hvac-repair-cost-huntsville",
   },
+  openGraph: {
+    title: "How Much Does HVAC Repair Cost in Huntsville, AL? (2026 Price Guide)",
+    description:
+      "2026 HVAC repair costs in Huntsville, AL. Pricing for capacitors, compressors, refrigerant, blower motors, coils & more. Know what to expect before you call.",
+    url: "https://www.hsvhvacpros.com/blog/hvac-repair-cost-huntsville",
+    type: "article",
+  },
 };
 
 export default function HvacRepairCostHuntsville() {

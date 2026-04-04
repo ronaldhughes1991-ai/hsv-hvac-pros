@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   description:
     "Complete HVAC maintenance checklist for North Alabama. Spring AC prep, fall heating checkup, DIY tasks vs professional service, and maintenance plan costs.",
   alternates: { canonical: "https://www.hsvhvacpros.com/blog/hvac-maintenance-checklist-north-alabama" },
+  openGraph: {
+    title: "HVAC Maintenance Checklist for North Alabama Homeowners",
+    description:
+      "Complete HVAC maintenance checklist for North Alabama. Spring AC prep, fall heating checkup, DIY tasks vs professional service, and maintenance plan costs.",
+    url: "https://www.hsvhvacpros.com/blog/hvac-maintenance-checklist-north-alabama",
+    type: "article",
+  },
 };
 
 export default function HvacMaintenanceChecklistNorthAlabama() {

@@ -6,6 +6,18 @@ export const metadata: Metadata = {
   description:
     "Trusted HVAC service in Athens, Alabama. Our network of vetted technicians provides AC repair, heating maintenance, emergency service & system installation. Call (256) 588-4712.",
   alternates: { canonical: "https://www.hsvhvacpros.com/locations/athens" },
+  openGraph: {
+    title: "HVAC Services in Athens, AL — AC Repair, Heating & Emergency",
+    description:
+      "Trusted HVAC service in Athens, Alabama. Our network of vetted technicians provides AC repair, heating maintenance, emergency service & system installation.",
+    url: "https://www.hsvhvacpros.com/locations/athens",
+  },
+  other: {
+    "geo.region": "US-AL",
+    "geo.placename": "Athens",
+    "geo.position": "34.8029;-86.9717",
+    ICBM: "34.8029, -86.9717",
+  },
 };
 
 export default function AthensPage() {

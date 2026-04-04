@@ -6,6 +6,18 @@ export const metadata: Metadata = {
   description:
     "Trusted HVAC service in Harvest, Alabama. Our network of vetted technicians provides AC repair, heating maintenance, emergency service & system installation. Call (256) 588-4712.",
   alternates: { canonical: "https://www.hsvhvacpros.com/locations/harvest" },
+  openGraph: {
+    title: "HVAC Services in Harvest, AL — AC Repair, Heating & Emergency",
+    description:
+      "Trusted HVAC service in Harvest, Alabama. Our network of vetted technicians provides AC repair, heating maintenance, emergency service & system installation.",
+    url: "https://www.hsvhvacpros.com/locations/harvest",
+  },
+  other: {
+    "geo.region": "US-AL",
+    "geo.placename": "Harvest",
+    "geo.position": "34.8553;-86.7503",
+    ICBM: "34.8553, -86.7503",
+  },
 };
 
 export default function HarvestPage() {

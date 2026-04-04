@@ -6,6 +6,18 @@ export const metadata: Metadata = {
   description:
     "Trusted HVAC service in Hazel Green, Alabama. Our network of vetted technicians provides AC repair, heating maintenance, emergency service & system installation. Call (256) 588-4712.",
   alternates: { canonical: "https://www.hsvhvacpros.com/locations/hazel-green" },
+  openGraph: {
+    title: "HVAC Services in Hazel Green, AL — AC Repair, Heating & Emergency",
+    description:
+      "Trusted HVAC service in Hazel Green, Alabama. Our network of vetted technicians provides AC repair, heating maintenance, emergency service & system installation.",
+    url: "https://www.hsvhvacpros.com/locations/hazel-green",
+  },
+  other: {
+    "geo.region": "US-AL",
+    "geo.placename": "Hazel Green",
+    "geo.position": "34.9320;-86.5722",
+    ICBM: "34.9320, -86.5722",
+  },
 };
 
 export default function HazelGreenPage() {

@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "HSV HVAC Pros | Huntsville's Trusted HVAC Experts",
     description:
-      "Residential AC repair, heating maintenance & 24/7 emergency HVAC service in Athens, Huntsville & North Alabama. Licensed, insured & locally owned.",
+      "Connecting North Alabama homeowners with vetted, licensed HVAC professionals for AC repair, heating maintenance & 24/7 emergency service in Athens, Huntsville & beyond.",
     url: "https://www.hsvhvacpros.com",
     siteName: "HSV HVAC Pros",
     type: "website",

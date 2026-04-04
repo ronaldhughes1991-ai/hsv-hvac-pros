@@ -9,6 +9,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.hsvhvacpros.com/blog/repair-vs-replace-hvac",
   },
+  openGraph: {
+    title: "Repair vs Replace: When Is It Time for a New HVAC System?",
+    description:
+      "Should you repair or replace your HVAC system? Use the $5,000 rule, age thresholds, and our decision checklist to make the smart call. Huntsville area pricing.",
+    url: "https://www.hsvhvacpros.com/blog/repair-vs-replace-hvac",
+    type: "article",
+  },
 };
 
 export default function RepairVsReplaceHvac() {

@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   description:
     "Professional furnace maintenance & heating tune-ups in Huntsville, Athens & North Alabama. Prevent breakdowns, lower energy bills. Call (256) 588-4712.",
   alternates: { canonical: "https://www.hsvhvacpros.com/services/heating-maintenance" },
+  openGraph: {
+    title: "Heating Maintenance Huntsville AL | Furnace Service & Tune-Ups",
+    description:
+      "Professional furnace maintenance & heating tune-ups in Huntsville, Athens & North Alabama. Prevent breakdowns, lower energy bills.",
+    url: "https://www.hsvhvacpros.com/services/heating-maintenance",
+  },
 };
 
 export default function HeatingMaintenancePage() {

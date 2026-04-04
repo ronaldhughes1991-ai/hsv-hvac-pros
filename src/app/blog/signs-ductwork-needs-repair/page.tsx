@@ -8,6 +8,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.hsvhvacpros.com/blog/signs-ductwork-needs-repair",
   },
+  openGraph: {
+    title: "Top 5 Signs Your Ductwork Needs Repair or Replacement",
+    description:
+      "Leaky or damaged ductwork can waste up to 30% of your conditioned air. Spot these five warning signs before they drive up your North Alabama energy bills.",
+    url: "https://www.hsvhvacpros.com/blog/signs-ductwork-needs-repair",
+    type: "article",
+  },
 };
 
 export default function SignsDuctworkNeedsRepair() {

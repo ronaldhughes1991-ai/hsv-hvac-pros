@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   description:
     "Find the best HVAC system for Alabama humidity. Compare variable-speed vs single-stage, SEER2 ratings, dehumidification features, and prices from $5,500-$12,000.",
   alternates: { canonical: "https://www.hsvhvacpros.com/blog/best-hvac-system-alabama-humidity" },
+  openGraph: {
+    title: "Best HVAC System for Alabama Humidity: Complete Buyer's Guide",
+    description:
+      "Find the best HVAC system for Alabama humidity. Compare variable-speed vs single-stage, SEER2 ratings, dehumidification features, and prices from $5,500-$12,000.",
+    url: "https://www.hsvhvacpros.com/blog/best-hvac-system-alabama-humidity",
+    type: "article",
+  },
 };
 
 export default function BestHvacSystemAlabamaHumidity() {

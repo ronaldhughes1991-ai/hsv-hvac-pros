@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   description:
     "24/7 emergency HVAC repair in Huntsville, Athens & North Alabama. No overtime charges. AC & furnace emergencies answered immediately. Call (256) 588-4712.",
   alternates: { canonical: "https://www.hsvhvacpros.com/services/emergency-hvac" },
+  openGraph: {
+    title: "24/7 Emergency HVAC Service Huntsville AL | After-Hours Repair",
+    description:
+      "24/7 emergency HVAC repair in Huntsville, Athens & North Alabama. No overtime charges. AC & furnace emergencies answered immediately.",
+    url: "https://www.hsvhvacpros.com/services/emergency-hvac",
+  },
 };
 
 export default function EmergencyHVACPage() {

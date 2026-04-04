@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   description:
     "Professional HVAC system installation in Huntsville, Athens & North Alabama. New AC units, furnaces, heat pumps. Free estimates, financing available. Call (256) 588-4712.",
   alternates: { canonical: "https://www.hsvhvacpros.com/services/system-installation" },
+  openGraph: {
+    title: "HVAC Installation Huntsville AL | New AC & Furnace Systems",
+    description:
+      "Professional HVAC system installation in Huntsville, Athens & North Alabama. New AC units, furnaces, heat pumps. Free estimates, financing available.",
+    url: "https://www.hsvhvacpros.com/services/system-installation",
+  },
 };
 
 export default function SystemInstallationPage() {

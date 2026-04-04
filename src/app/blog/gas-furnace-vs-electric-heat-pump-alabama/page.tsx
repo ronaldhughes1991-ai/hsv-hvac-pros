@@ -10,6 +10,13 @@ export const metadata: Metadata = {
     canonical:
       "https://www.hsvhvacpros.com/blog/gas-furnace-vs-electric-heat-pump-alabama",
   },
+  openGraph: {
+    title: "Gas Furnace vs Electric Heat Pump: Cost Comparison for Alabama",
+    description:
+      "Gas furnace vs electric heat pump cost breakdown for Alabama. TVA rates, installation costs, monthly bills, and 10-year total cost of ownership compared.",
+    url: "https://www.hsvhvacpros.com/blog/gas-furnace-vs-electric-heat-pump-alabama",
+    type: "article",
+  },
 };
 
 export default function GasFurnaceVsElectricHeatPumpAlabama() {

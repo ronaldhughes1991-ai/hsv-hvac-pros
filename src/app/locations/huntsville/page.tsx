@@ -6,6 +6,18 @@ export const metadata: Metadata = {
   description:
     "Trusted HVAC service in Huntsville, Alabama. Our network of vetted technicians provides AC repair, heating maintenance, emergency service & system installation. Call (256) 588-4712.",
   alternates: { canonical: "https://www.hsvhvacpros.com/locations/huntsville" },
+  openGraph: {
+    title: "HVAC Services in Huntsville, AL — AC Repair, Heating & Emergency",
+    description:
+      "Trusted HVAC service in Huntsville, Alabama. Our network of vetted technicians provides AC repair, heating maintenance, emergency service & system installation.",
+    url: "https://www.hsvhvacpros.com/locations/huntsville",
+  },
+  other: {
+    "geo.region": "US-AL",
+    "geo.placename": "Huntsville",
+    "geo.position": "34.7304;-86.5861",
+    ICBM: "34.7304, -86.5861",
+  },
 };
 
 export default function HuntsvillePage() {

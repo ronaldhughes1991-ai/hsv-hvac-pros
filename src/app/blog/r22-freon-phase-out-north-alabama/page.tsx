@@ -8,6 +8,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.hsvhvacpros.com/blog/r22-freon-phase-out-north-alabama",
   },
+  openGraph: {
+    title: "R-22 Freon Phase-Out: What North Alabama Homeowners Should Know",
+    description:
+      "R-22 refrigerant is no longer manufactured, and prices keep climbing. Learn your options if your North Alabama AC still uses R-22 Freon.",
+    url: "https://www.hsvhvacpros.com/blog/r22-freon-phase-out-north-alabama",
+    type: "article",
+  },
 };
 
 export default function R22FreonPhaseOut() {

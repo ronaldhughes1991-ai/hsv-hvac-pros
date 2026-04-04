@@ -6,6 +6,18 @@ export const metadata: Metadata = {
   description:
     "Trusted HVAC service in Meridianville, Alabama. Our network of vetted technicians provides AC repair, heating maintenance, emergency service & system installation. Call (256) 588-4712.",
   alternates: { canonical: "https://www.hsvhvacpros.com/locations/meridianville" },
+  openGraph: {
+    title: "HVAC Services in Meridianville, AL — AC Repair, Heating & Emergency",
+    description:
+      "Trusted HVAC service in Meridianville, Alabama. Our network of vetted technicians provides AC repair, heating maintenance, emergency service & system installation.",
+    url: "https://www.hsvhvacpros.com/locations/meridianville",
+  },
+  other: {
+    "geo.region": "US-AL",
+    "geo.placename": "Meridianville",
+    "geo.position": "34.8512;-86.5722",
+    ICBM: "34.8512, -86.5722",
+  },
 };
 
 export default function MeridianvillePage() {
