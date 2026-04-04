@@ -78,6 +78,13 @@ export default function RootLayout({
         <link rel="preconnect" href="https://cdn.callrail.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        {/* Google Analytics 4 — replace G-XXXXXXXXXX with your measurement ID */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');`,
+          }}
+        />
         {/* CallRail call tracking */}
         <script
           type="text/javascript"

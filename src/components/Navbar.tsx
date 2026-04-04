@@ -7,11 +7,12 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const links = [
-    { href: "#services", label: "Services" },
-    { href: "#emergency", label: "Emergency" },
-    { href: "#reviews", label: "Reviews" },
-    { href: "#faq", label: "FAQ" },
-    { href: "#contact", label: "Contact" },
+    { href: "/#services", label: "Services" },
+    { href: "/#emergency", label: "Emergency" },
+    { href: "/#reviews", label: "Reviews" },
+    { href: "/#faq", label: "FAQ" },
+    { href: "/blog", label: "Blog" },
+    { href: "/#contact", label: "Contact" },
   ];
 
   return (

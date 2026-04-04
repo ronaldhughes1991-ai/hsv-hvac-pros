@@ -5,13 +5,13 @@ export default function Footer() {
 
   const serviceAreas: { name: string; href?: string }[] = [
     { name: "Huntsville", href: "/locations/huntsville" },
-    { name: "Madison" },
+    { name: "Madison", href: "/locations/madison" },
     { name: "Athens", href: "/locations/athens" },
-    { name: "Harvest" },
-    { name: "Meridianville" },
-    { name: "Hazel Green" },
-    { name: "New Market" },
-    { name: "Toney" },
+    { name: "Harvest", href: "/locations/harvest" },
+    { name: "Meridianville", href: "/locations/meridianville" },
+    { name: "Hazel Green", href: "/locations/hazel-green" },
+    { name: "New Market", href: "/locations/new-market" },
+    { name: "Toney", href: "/locations/toney" },
   ];
 
   return (
@@ -128,6 +128,8 @@ export default function Footer() {
               <p>&copy; {year} HSV HVAC Pros. All rights reserved.</p>
               <div className="flex gap-3">
                 <a href="/about" className="text-slate-500 transition-colors hover:text-white">About</a>
+                <span className="text-slate-700">|</span>
+                <a href="/blog" className="text-slate-500 transition-colors hover:text-white">Blog</a>
                 <span className="text-slate-700">|</span>
                 <a href="/privacy" className="text-slate-500 transition-colors hover:text-white">Privacy Policy</a>
                 <span className="text-slate-700">|</span>
