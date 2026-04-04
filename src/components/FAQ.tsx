@@ -114,19 +114,29 @@ export default function FAQ() {
           </p>
         </div>
 
-        <dl className="mt-12 space-y-8">
+        <dl className="mt-12 space-y-3">
           {faqs.map((faq) => (
-            <div
+            <details
               key={faq.question}
-              className="rounded-xl border border-slate-200 p-6"
+              className="group rounded-xl border border-slate-200"
             >
-              <dt className="text-base font-bold text-slate-900">
-                {faq.question}
-              </dt>
-              <dd className="mt-3 text-sm leading-7 text-slate-600">
+              <summary className="flex cursor-pointer items-center justify-between p-5 text-base font-bold text-slate-900 marker:[content:'']">
+                <dt>{faq.question}</dt>
+                <svg
+                  className="h-5 w-5 shrink-0 text-slate-400 transition-transform group-open:rotate-180"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={2}
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+              </summary>
+              <dd className="px-5 pb-5 text-sm leading-7 text-slate-600">
                 {faq.answer}
               </dd>
-            </div>
+            </details>
           ))}
         </dl>
       </div>

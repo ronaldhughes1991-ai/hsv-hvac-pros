@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+/* Hide default details marker for custom FAQ accordion */
+details summary::-webkit-details-marker { display: none; }
+details summary { list-style: none; }
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
